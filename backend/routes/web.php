@@ -16,14 +16,6 @@ Route::get('/{any}', function() {
     return view('app');
 })->where('any', '.*');
 
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-=======
-Auth::routes();
->>>>>>> f3fb692... 詳細コンポーネント実装
